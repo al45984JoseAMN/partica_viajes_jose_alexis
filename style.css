@@ -58,7 +58,7 @@ body {
     font-weight: bold;
     
     /* Error intencional: Cambiar a flex para que se alinee horizontalmente */
-    display: block; 
+    display: flex; 
 }
 
 .client-data {

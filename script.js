@@ -12,6 +12,9 @@ function calcularIndividual() {
     else if (formIndividual.vuelo.value == "ida") {
         total += 2499;
     }
+    else if (formIndividual.vuelo.value == "ida_vuelta") {
+        total += 5999;
+    }
     // === REQUISITO 3A: Programar la condición para "ida-vuelta" ($5,999 MXN) ===
 
 
